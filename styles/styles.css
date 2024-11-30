@@ -23,7 +23,7 @@ h2{
     color: white;
 }
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: white;
 }
@@ -32,8 +32,11 @@ h4{
     font-weight: 500;
     color: #00EFFE;
 }
+h5{
+    font-weight: 400;
+}
 p{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: white;
 }
@@ -59,6 +62,7 @@ button{
         grid-column: 1/5;
         grid-row: 1/5;
         width: 100%;
+        height: 100%;
         z-index: -1;
     }
     .titulos{
@@ -96,5 +100,122 @@ button{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 25% 25% 25% 25%;
+    }
+    .linea{
+        padding-top: 1rem;
+        grid-column: 1/5;
+        grid-row: 1/1;
+        width: 100%;
+    }
+    .contenido{
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        grid-column: 1/5;
+        grid-row: 1/5;
+        gap: 0.5rem;
+    }
+    .pelota{
+        width: 60px;
+        border-radius: 100px;
+    }
+    .sol{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .pileta{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .mate{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+    .cuando h3{
+        margin: 0;
+        padding: 0;
+    }
+    .horario{
+        gap: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .horario h3{
+        margin: 0;
+        padding: 0;
+    }
+    .donde{
+        height: 7rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.3rem;
+    }
+    .donde h3{
+        margin: 0;
+        padding: 0;
+    }
+    .llevar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .llevar h3{
+        margin: 0;
+        padding: 0;
+    }
+    /* seccion 3 */
+    .container-3{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    .linea2{
+        width: 100%;
+    }
+    .gallardo{
+        width: 60%;
+        border-radius: 60px;
+    }
+    .seccion3{
+        color: white;
+        font-weight: 800;
+    }
+    .lluvia{
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+    }
+    /* espacio del footer */
+    footer{
+        margin-top: 1rem;
+        height: 12vh;
+        background-color: #00EFFE;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .spanFooter{
+        color: black;
+        font-weight: 700;
     }
 }
