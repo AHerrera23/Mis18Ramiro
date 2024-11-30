@@ -218,6 +218,10 @@ footer{
         align-items: center;
         gap: 0.8rem;
     }
+    .container-3 p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .linea2{
         width: 100%;
     }
